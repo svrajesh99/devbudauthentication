@@ -1,0 +1,271 @@
+@import './styles/variables.scss';
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.devbudContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.Container {
+  width: 100%;
+  background-color: #27272A;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  }
+
+  .devbudTitle {
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .Title {
+    color: white;
+    font-size: 13px;
+    margin-top: 25px;
+  }
+
+  .loginFields {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .inputField {
+    width: 100%;
+    height: 30px;
+    border-radius: 0.125rem;
+    border: 1px solid #3D3D42;
+    color: white;
+    background-color:#18181B;
+    margin-top: 10px;
+    
+  }
+
+  .inputField:hover {
+    border: 1px solid #A1A1AA;
+  }
+
+  .inputField > input {
+    background-color: #18181B;
+    outline: none;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    font-size: 12px;
+  }
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  width: 90%;
+}
+
+.image {
+  width: 65%;
+  height: 65%;
+  margin: 20px;
+}
+
+.link {
+  color: #A1A1AA;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-right: 53%;
+}
+
+.link:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.tabsAndLogout {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #3D3D44;
+  border-top: 1px solid #3D3D44;
+}
+
+.tabs {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.tab {
+  color: #8C8C94;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.tab:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.tabActive {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.logout {
+  color: #8C8C94;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.logout:hover {
+  color: white;
+}
+
+.tags {
+  border: 1px solid #8C8C94;
+  border-radius: 5px;
+  background-color: #27272A;
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.tags > h3 {
+  color: white;
+  font-size: 10px;
+}
+
+.tags:hover {
+  background-color: black;
+}
+
+.tagActive {
+  border: 1px solid #8C8C94;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.tagActive > h3 {
+  color: #18181B;
+  font-size: 10px;
+}
+
+.DevbudTags {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.customText {
+  font-size: 10px;
+  color: #696971;
+}
+
+.custom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.line {
+  background-color: #39393F;
+  width: 25%;
+  height: 0.5px;
+}
+
+.textareaDiv {
+  width: 88%;
+  height: 90px;
+  background-color: #18181B;
+  margin-top: 15px;
+  border: 1px solid #696971;
+  border-radius: 5px;
+}
+
+.textareaDiv:hover {
+  border: 1px solid #A1A1AA;
+}
+
+.textarea {
+  background-color: #18181B;
+  border: none;
+  outline: none;
+  width: 95%;
+  height: 92%;
+  color: white;
+  margin-left: 7px;
+  margin-top: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  resize: none;
+}
+
+.devbudButton {
+  width: 90%;
+  margin-top: 10px;
+  border-radius: 4px;
+  height: 30px;
+  background-color: $COLOR-FIGMA-GREEN;
+  color: $COLOR-WHITE;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  font-size: 12px
+}
+
+.devbudButton:hover {
+  background-color: darken($COLOR-FIGMA-GREEN, 15%);
+  cursor: pointer;
+}
+
+
+.textareaDivWriting {
+  width: 88%;
+  height: 150px;
+  background-color: #18181B;
+  margin-top: 15px;
+  border: 1px solid #696971;
+  border-radius: 5px;
+}
+
+.textareaDivWriting:hover {
+  border: 1px solid #A1A1AA;
+}
+
+.textareaWriting {
+  background-color: #18181B;
+  border: none;
+  outline: none;
+  width: 95%;
+  height: 92%;
+  color: white;
+  margin-left: 7px;
+  margin-top: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  resize: none;
+}

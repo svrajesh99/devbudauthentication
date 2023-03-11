@@ -1,0 +1,20 @@
+@import '../styles/variables.scss';
+
+.base {
+  border-radius: 4px;
+  outline: none;
+  width: 95%;
+  height: 30px;
+}
+
+.primary {
+  background-color: $COLOR-FIGMA-GREEN;
+  color: $COLOR-WHITE;
+  font-weight: bold;
+  border: none;
+
+  &:hover {
+    background-color: darken($COLOR-FIGMA-GREEN, 15%);
+    cursor: pointer;
+  }
+}
